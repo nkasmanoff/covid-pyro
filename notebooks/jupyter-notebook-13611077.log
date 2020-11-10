@@ -1,0 +1,45 @@
+
+MacOS or linux terminal command to create your ssh tunnel:
+ssh -N -L 9945:c42-04:9945 nsk367@ 
+For more info and how to connect from windows, 
+   see research.computing.yale.edu/jupyter-nb
+Here is the MobaXterm info:
+Forwarded port:same as remote port
+Remote server: c42-04
+Remote port: 9945
+SSH server: 
+SSH login: nsk367
+SSH port: 22
+Use a Browser on your local machine to go to:
+http://localhost:9945  (prefix w/ https:// if using password)
+Use the token string from the URL printed below and add it to the URL above
+
+[I 09:43:20.898 NotebookApp] Serving notebooks from local directory: /scratch/nsk367/pytorch-use/research/covid-pyro/notebooks
+[I 09:43:20.900 NotebookApp] Jupyter Notebook 6.1.5 is running at:
+[I 09:43:20.900 NotebookApp] http://c42-04:9945/?token=b1e8cfe176dc3c4dedd565b161f8fe19323ab88e9ef3a330
+[I 09:43:20.900 NotebookApp]  or http://127.0.0.1:9945/?token=b1e8cfe176dc3c4dedd565b161f8fe19323ab88e9ef3a330
+[I 09:43:20.900 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 09:43:20.943 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/nsk367/.local/share/jupyter/runtime/nbserver-231615-open.html
+    Or copy and paste one of these URLs:
+        http://c42-04:9945/?token=b1e8cfe176dc3c4dedd565b161f8fe19323ab88e9ef3a330
+     or http://127.0.0.1:9945/?token=b1e8cfe176dc3c4dedd565b161f8fe19323ab88e9ef3a330
+[I 09:43:47.264 NotebookApp] 302 GET /?token=b1e8cfe176dc3c4dedd565b161f8fe19323ab88e9ef3a330 (172.16.0.12) 0.44ms
+[I 09:43:53.615 NotebookApp] Creating new notebook in 
+[I 09:43:59.711 NotebookApp] Kernel started: 7b4c80a4-f34b-4999-9925-9b45d97d0cbf, name: python3
+[I 09:45:59.660 NotebookApp] Saving file at /Starting with Pyro.ipynb
+[I 09:47:59.655 NotebookApp] Saving file at /Starting with Pyro.ipynb
+[I 09:49:59.659 NotebookApp] Saving file at /Starting with Pyro.ipynb
+[I 09:51:59.682 NotebookApp] Saving file at /Starting with Pyro.ipynb
+[I 09:53:59.659 NotebookApp] Saving file at /Starting with Pyro.ipynb
+[I 09:55:59.681 NotebookApp] Saving file at /Starting with Pyro.ipynb
+[I 09:57:59.696 NotebookApp] Saving file at /Starting with Pyro.ipynb
+[I 09:59:59.715 NotebookApp] Saving file at /Starting with Pyro.ipynb
+[I 10:01:59.690 NotebookApp] Saving file at /Starting with Pyro.ipynb
+[I 10:03:59.740 NotebookApp] Saving file at /Starting with Pyro.ipynb
+[I 10:04:56.978 NotebookApp] Creating new notebook in 
+[I 10:04:58.435 NotebookApp] Kernel started: 67dbf6db-e1c9-4fe9-b13f-636a2d99e0e0, name: python3
+[I 10:06:00.173 NotebookApp] Saving file at /Starting with Pyro.ipynb
+[I 10:06:43.020 NotebookApp] Saving file at /Pyro Epidemiology.ipynb
