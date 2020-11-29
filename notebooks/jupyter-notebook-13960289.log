@@ -72,3 +72,47 @@ Use the token string from the URL printed below and add it to the URL above
 [I 14:15:03.046 NotebookApp] Saving file at /SIR Object Pyro.ipynb
 [I 14:17:03.026 NotebookApp] Saving file at /SIR Object Pyro.ipynb
 [I 14:17:27.731 NotebookApp] Saving file at /SIR Object Pyro.ipynb
+[I 14:21:03.024 NotebookApp] Saving file at /SIR Object Pyro.ipynb
+[I 14:29:03.037 NotebookApp] Saving file at /SIR Object Pyro.ipynb
+[I 14:31:03.488 NotebookApp] Saving file at /SIR Object Pyro.ipynb
+[I 14:32:16.490 NotebookApp] Saving file at /SIR Object Pyro.ipynb
+[I 14:32:16.692 NotebookApp] Copying SIR Object Pyro.ipynb to 
+[I 14:32:19.169 NotebookApp] Kernel started: dc3bcdef-770c-4e05-a34a-fc270726582e, name: python3
+[I 14:34:19.235 NotebookApp] Saving file at /SIR Object Pyro-Real world.ipynb
+[W 14:36:10.856 NotebookApp] Notebook Causal ML code for SIR.ipynb is not trusted
+[I 14:36:11.740 NotebookApp] Kernel started: ec6b3899-5b5a-41c9-b7dd-6b2a4cf25109, name: python3
+[I 14:38:11.751 NotebookApp] Saving file at /Causal ML code for SIR.ipynb
+[W 14:38:11.752 NotebookApp] Notebook Causal ML code for SIR.ipynb is not trusted
+[I 14:42:12.696 NotebookApp] Saving file at /Causal ML code for SIR.ipynb
+[I 14:46:11.790 NotebookApp] Saving file at /Causal ML code for SIR.ipynb
+[I 14:48:13.013 NotebookApp] Saving file at /Causal ML code for SIR.ipynb
+[I 14:48:19.203 NotebookApp] Saving file at /SIR Object Pyro-Real world.ipynb
+[I 14:50:19.241 NotebookApp] Saving file at /SIR Object Pyro-Real world.ipynb
+[I 14:52:19.249 NotebookApp] Saving file at /SIR Object Pyro-Real world.ipynb
+[I 14:54:11.819 NotebookApp] Saving file at /Causal ML code for SIR.ipynb
+[I 14:56:11.778 NotebookApp] Saving file at /Causal ML code for SIR.ipynb
+[I 14:58:11.783 NotebookApp] Saving file at /Causal ML code for SIR.ipynb
+[I 15:00:11.759 NotebookApp] Saving file at /Causal ML code for SIR.ipynb
+[I 15:02:11.904 NotebookApp] Saving file at /Causal ML code for SIR.ipynb
+[I 15:04:11.751 NotebookApp] Saving file at /Causal ML code for SIR.ipynb
+[I 15:06:11.785 NotebookApp] Saving file at /Causal ML code for SIR.ipynb
+[I 15:08:13.221 NotebookApp] Saving file at /Causal ML code for SIR.ipynb
+[I 15:10:11.789 NotebookApp] Saving file at /Causal ML code for SIR.ipynb
+[I 15:12:12.108 NotebookApp] Saving file at /Causal ML code for SIR.ipynb
+[I 15:14:19.288 NotebookApp] Saving file at /SIR Object Pyro-Real world.ipynb
+[I 15:16:19.303 NotebookApp] Saving file at /SIR Object Pyro-Real world.ipynb
+[I 15:18:19.399 NotebookApp] Saving file at /SIR Object Pyro-Real world.ipynb
+[I 15:20:19.285 NotebookApp] Saving file at /SIR Object Pyro-Real world.ipynb
+[I 15:20:28.665 NotebookApp] Kernel interrupted: dc3bcdef-770c-4e05-a34a-fc270726582e
+[I 15:22:19.347 NotebookApp] Saving file at /SIR Object Pyro-Real world.ipynb
+[I 15:24:20.077 NotebookApp] Saving file at /SIR Object Pyro-Real world.ipynb
+[I 15:26:19.262 NotebookApp] Saving file at /SIR Object Pyro-Real world.ipynb
+[I 15:28:19.315 NotebookApp] Saving file at /SIR Object Pyro-Real world.ipynb
+[I 15:30:19.277 NotebookApp] Saving file at /SIR Object Pyro-Real world.ipynb
+[I 15:32:19.284 NotebookApp] Saving file at /SIR Object Pyro-Real world.ipynb
+[I 15:34:19.341 NotebookApp] Saving file at /SIR Object Pyro-Real world.ipynb
+[I 15:36:20.667 NotebookApp] Saving file at /SIR Object Pyro-Real world.ipynb
+[I 15:40:19.334 NotebookApp] Saving file at /SIR Object Pyro-Real world.ipynb
+[I 15:40:26.359 NotebookApp] Saving file at /SIR Object Pyro-Real world.ipynb
+[I 15:42:19.308 NotebookApp] Saving file at /SIR Object Pyro-Real world.ipynb
+[I 15:44:19.571 NotebookApp] Saving file at /SIR Object Pyro-Real world.ipynb
