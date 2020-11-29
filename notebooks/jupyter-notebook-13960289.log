@@ -1,0 +1,74 @@
+
+MacOS or linux terminal command to create your ssh tunnel:
+ssh -N -L 8264:c23-01:8264 nsk367@ 
+For more info and how to connect from windows, 
+   see research.computing.yale.edu/jupyter-nb
+Here is the MobaXterm info:
+Forwarded port:same as remote port
+Remote server: c23-01
+Remote port: 8264
+SSH server: 
+SSH login: nsk367
+SSH port: 22
+Use a Browser on your local machine to go to:
+http://localhost:8264  (prefix w/ https:// if using password)
+Use the token string from the URL printed below and add it to the URL above
+
+[I 13:07:27.385 NotebookApp] Serving notebooks from local directory: /scratch/nsk367/pytorch-use/research/covid-pyro/notebooks
+[I 13:07:27.386 NotebookApp] Jupyter Notebook 6.1.5 is running at:
+[I 13:07:27.386 NotebookApp] http://c23-01:8264/?token=ffb29cec15795b13f3e66e6470f8a4f2734e2acb1bb89fe2
+[I 13:07:27.386 NotebookApp]  or http://127.0.0.1:8264/?token=ffb29cec15795b13f3e66e6470f8a4f2734e2acb1bb89fe2
+[I 13:07:27.386 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 13:07:27.392 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/nsk367/.local/share/jupyter/runtime/nbserver-86925-open.html
+    Or copy and paste one of these URLs:
+        http://c23-01:8264/?token=ffb29cec15795b13f3e66e6470f8a4f2734e2acb1bb89fe2
+     or http://127.0.0.1:8264/?token=ffb29cec15795b13f3e66e6470f8a4f2734e2acb1bb89fe2
+[I 13:15:05.464 NotebookApp] 302 GET /?token=ffb29cec15795b13f3e66e6470f8a4f2734e2acb1bb89fe2 (172.16.0.12) 0.44ms
+[I 13:15:13.991 NotebookApp] Kernel started: 780e08e6-c048-419d-8b4f-e4b24c135247, name: python3
+[I 13:19:14.029 NotebookApp] Saving file at /SIR-Noah Copy.ipynb
+[I 13:24:25.646 NotebookApp] Starting buffering for 780e08e6-c048-419d-8b4f-e4b24c135247:d4dbd7cf65d34e5f80ca02555d89d16c
+[I 13:24:25.897 NotebookApp] Kernel restarted: 780e08e6-c048-419d-8b4f-e4b24c135247
+[I 13:24:26.173 NotebookApp] Restoring connection for 780e08e6-c048-419d-8b4f-e4b24c135247:d4dbd7cf65d34e5f80ca02555d89d16c
+[I 13:24:26.173 NotebookApp] Replaying 3 buffered messages
+[I 13:25:13.965 NotebookApp] Saving file at /SIR-Noah Copy.ipynb
+[W 13:26:02.030 NotebookApp] Notebook SIR.ipynb is not trusted
+[I 13:26:02.436 NotebookApp] Kernel started: df049165-519e-4185-857b-07c5414760c5, name: python3
+[I 13:27:13.983 NotebookApp] Saving file at /SIR-Noah Copy.ipynb
+[I 13:28:03.079 NotebookApp] Saving file at /SIR.ipynb
+[W 13:28:03.087 NotebookApp] Notebook SIR.ipynb is not trusted
+[I 13:29:14.187 NotebookApp] Saving file at /SIR-Noah Copy.ipynb
+[I 13:31:13.988 NotebookApp] Saving file at /SIR-Noah Copy.ipynb
+[I 13:33:14.058 NotebookApp] Saving file at /SIR-Noah Copy.ipynb
+[I 13:35:14.247 NotebookApp] Saving file at /SIR-Noah Copy.ipynb
+[I 13:39:14.014 NotebookApp] Saving file at /SIR-Noah Copy.ipynb
+[I 13:41:13.989 NotebookApp] Saving file at /SIR-Noah Copy.ipynb
+[I 13:43:13.987 NotebookApp] Saving file at /SIR-Noah Copy.ipynb
+[I 13:45:14.023 NotebookApp] Saving file at /SIR-Noah Copy.ipynb
+[I 13:47:14.013 NotebookApp] Saving file at /SIR-Noah Copy.ipynb
+[I 13:51:14.693 NotebookApp] Saving file at /SIR-Noah Copy.ipynb
+[I 13:53:01.491 NotebookApp] Creating new notebook in 
+[I 13:53:02.979 NotebookApp] Kernel started: 20e34bfb-2972-4c29-a841-6210ab4bc64b, name: python3
+[I 13:55:03.344 NotebookApp] Saving file at /SIR Object Pyro.ipynb
+[I 13:55:24.498 NotebookApp] Saving file at /SIR Object Pyro.ipynb
+[I 13:56:32.660 NotebookApp] Saving file at /SIR Object Pyro.ipynb
+[I 13:56:49.621 NotebookApp] Saving file at /SIR Object Pyro.ipynb
+[I 13:57:03.018 NotebookApp] Saving file at /SIR Object Pyro.ipynb
+[I 13:59:03.021 NotebookApp] Saving file at /SIR Object Pyro.ipynb
+[I 14:01:05.339 NotebookApp] Saving file at /SIR Object Pyro.ipynb
+[I 14:03:03.017 NotebookApp] Saving file at /SIR Object Pyro.ipynb
+[I 14:05:03.076 NotebookApp] Saving file at /SIR Object Pyro.ipynb
+[I 14:05:25.897 NotebookApp] Starting buffering for 20e34bfb-2972-4c29-a841-6210ab4bc64b:5caa9592240e49109473ada8c9f8fada
+[I 14:05:27.536 NotebookApp] Kernel restarted: 20e34bfb-2972-4c29-a841-6210ab4bc64b
+[I 14:05:27.596 NotebookApp] Restoring connection for 20e34bfb-2972-4c29-a841-6210ab4bc64b:5caa9592240e49109473ada8c9f8fada
+[I 14:05:27.596 NotebookApp] Replaying 3 buffered messages
+[I 14:07:03.035 NotebookApp] Saving file at /SIR Object Pyro.ipynb
+[I 14:09:03.036 NotebookApp] Saving file at /SIR Object Pyro.ipynb
+[I 14:11:03.029 NotebookApp] Saving file at /SIR Object Pyro.ipynb
+[I 14:13:03.066 NotebookApp] Saving file at /SIR Object Pyro.ipynb
+[I 14:13:43.511 NotebookApp] Kernel interrupted: 20e34bfb-2972-4c29-a841-6210ab4bc64b
+[I 14:15:03.046 NotebookApp] Saving file at /SIR Object Pyro.ipynb
+[I 14:17:03.026 NotebookApp] Saving file at /SIR Object Pyro.ipynb
+[I 14:17:27.731 NotebookApp] Saving file at /SIR Object Pyro.ipynb
