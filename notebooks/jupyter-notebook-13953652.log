@@ -1,0 +1,57 @@
+
+MacOS or linux terminal command to create your ssh tunnel:
+ssh -N -L 9891:c25-01:9891 nsk367@ 
+For more info and how to connect from windows, 
+   see research.computing.yale.edu/jupyter-nb
+Here is the MobaXterm info:
+Forwarded port:same as remote port
+Remote server: c25-01
+Remote port: 9891
+SSH server: 
+SSH login: nsk367
+SSH port: 22
+Use a Browser on your local machine to go to:
+http://localhost:9891  (prefix w/ https:// if using password)
+Use the token string from the URL printed below and add it to the URL above
+
+/opt/slurm/data/slurmd/job13953652/slurm_script: line 54: activate: No such file or directory
+[I 20:09:18.687 NotebookApp] Serving notebooks from local directory: /scratch/nsk367/pytorch-use/research/covid-pyro/notebooks
+[I 20:09:18.687 NotebookApp] Jupyter Notebook 6.1.5 is running at:
+[I 20:09:18.687 NotebookApp] http://c25-01:9891/?token=d5fd4ab2155b097dddc612e6dbdd5633ffcac11eebcca655
+[I 20:09:18.687 NotebookApp]  or http://127.0.0.1:9891/?token=d5fd4ab2155b097dddc612e6dbdd5633ffcac11eebcca655
+[I 20:09:18.687 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 20:09:18.692 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/nsk367/.local/share/jupyter/runtime/nbserver-137911-open.html
+    Or copy and paste one of these URLs:
+        http://c25-01:9891/?token=d5fd4ab2155b097dddc612e6dbdd5633ffcac11eebcca655
+     or http://127.0.0.1:9891/?token=d5fd4ab2155b097dddc612e6dbdd5633ffcac11eebcca655
+[I 20:09:56.974 NotebookApp] 302 GET /?token=d5fd4ab2155b097dddc612e6dbdd5633ffcac11eebcca655 (172.16.0.12) 0.40ms
+[I 20:10:03.585 NotebookApp] Kernel started: 9fcc896b-91dc-4781-9c41-4a4ef417c364, name: python3
+[I 20:10:12.397 NotebookApp] Kernel interrupted: 9fcc896b-91dc-4781-9c41-4a4ef417c364
+[I 20:12:03.617 NotebookApp] Saving file at /SIR-Noah Copy.ipynb
+[I 20:12:20.324 NotebookApp] Kernel interrupted: 9fcc896b-91dc-4781-9c41-4a4ef417c364
+[I 20:14:03.636 NotebookApp] Saving file at /SIR-Noah Copy.ipynb
+[I 20:14:53.125 NotebookApp] Kernel interrupted: 9fcc896b-91dc-4781-9c41-4a4ef417c364
+[I 20:16:04.515 NotebookApp] Saving file at /SIR-Noah Copy.ipynb
+[I 20:18:04.527 NotebookApp] Saving file at /SIR-Noah Copy.ipynb
+[I 20:20:03.642 NotebookApp] Saving file at /SIR-Noah Copy.ipynb
+[I 20:22:03.628 NotebookApp] Saving file at /SIR-Noah Copy.ipynb
+[I 20:24:03.688 NotebookApp] Saving file at /SIR-Noah Copy.ipynb
+[I 20:26:03.735 NotebookApp] Saving file at /SIR-Noah Copy.ipynb
+[I 21:54:05.008 NotebookApp] Saving file at /SIR-Noah Copy.ipynb
+[I 21:58:03.748 NotebookApp] Saving file at /SIR-Noah Copy.ipynb
+[I 22:00:04.060 NotebookApp] Saving file at /SIR-Noah Copy.ipynb
+[I 22:02:06.081 NotebookApp] Saving file at /SIR-Noah Copy.ipynb
+[I 22:02:46.359 NotebookApp] Starting buffering for 9fcc896b-91dc-4781-9c41-4a4ef417c364:118c40620f844ed29637c455dc12582e
+[I 23:57:43.269 NotebookApp] Saving file at /SIR-Noah Copy.ipynb
+[I 23:58:25.236 NotebookApp] Saving file at /SIR-Noah Copy.ipynb
+[I 23:58:37.369 NotebookApp] Saving file at /SIR-Noah Copy.ipynb
+[I 23:58:49.687 NotebookApp] Saving file at /SIR-Noah Copy.ipynb
+[I 23:59:19.518 NotebookApp] Saving file at /SIR-Noah Copy.ipynb
+[I 00:01:19.561 NotebookApp] Saving file at /SIR-Noah Copy.ipynb
+[I 00:03:19.581 NotebookApp] Saving file at /SIR-Noah Copy.ipynb
+[I 00:04:15.121 NotebookApp] Saving file at /SIR-Noah Copy.ipynb
+[I 00:04:16.551 NotebookApp] Saving file at /SIR-Noah Copy.ipynb
+[I 00:04:19.085 NotebookApp] Saving file at /SIR-Noah Copy.ipynb

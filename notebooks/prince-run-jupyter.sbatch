@@ -2,7 +2,7 @@
 ##SBATCH --partition gpu4_medium
 #SBATCH --nodes 1
 #SBATCH --ntasks-per-node 1
-#SBATCH --mem-per-cpu 8G
+#SBATCH --mem-per-cpu 80G
 #SBATCH --time 0-08:00:00
 #SBATCH --job-name jupyter-notebook
 #SBATCH --output jupyter-notebook-%J.log 
