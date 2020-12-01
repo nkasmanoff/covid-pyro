@@ -1,0 +1,55 @@
+
+MacOS or linux terminal command to create your ssh tunnel:
+ssh -N -L 9742:c99-05:9742 nsk367@ 
+For more info and how to connect from windows, 
+   see research.computing.yale.edu/jupyter-nb
+Here is the MobaXterm info:
+Forwarded port:same as remote port
+Remote server: c99-05
+Remote port: 9742
+SSH server: 
+SSH login: nsk367
+SSH port: 22
+Use a Browser on your local machine to go to:
+http://localhost:9742  (prefix w/ https:// if using password)
+Use the token string from the URL printed below and add it to the URL above
+
+[I 12:24:13.343 NotebookApp] Serving notebooks from local directory: /scratch/nsk367/pytorch-use/research/covid-pyro/notebooks
+[I 12:24:13.343 NotebookApp] Jupyter Notebook 6.1.5 is running at:
+[I 12:24:13.343 NotebookApp] http://c99-05:9742/?token=33d476b22645925d95432265d0e7c7ea4c330ffdba4aeb9b
+[I 12:24:13.343 NotebookApp]  or http://127.0.0.1:9742/?token=33d476b22645925d95432265d0e7c7ea4c330ffdba4aeb9b
+[I 12:24:13.344 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 12:24:13.365 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/nsk367/.local/share/jupyter/runtime/nbserver-35441-open.html
+    Or copy and paste one of these URLs:
+        http://c99-05:9742/?token=33d476b22645925d95432265d0e7c7ea4c330ffdba4aeb9b
+     or http://127.0.0.1:9742/?token=33d476b22645925d95432265d0e7c7ea4c330ffdba4aeb9b
+[I 12:24:27.219 NotebookApp] 302 GET /?token=33d476b22645925d95432265d0e7c7ea4c330ffdba4aeb9b (172.16.0.13) 0.63ms
+[I 12:37:06.400 NotebookApp] 302 GET /?token=33d476b22645925d95432265d0e7c7ea4c330ffdba4aeb9b (172.16.0.13) 0.47ms
+[I 12:42:52.619 NotebookApp] Kernel started: b2f832d2-8a9e-424f-a3fa-146b037563aa, name: python3
+[I 12:44:52.879 NotebookApp] Saving file at /SEI3R Object Pyro.ipynb
+[I 12:46:58.672 NotebookApp] Saving file at /SEI3R Object Pyro.ipynb
+[I 12:58:52.581 NotebookApp] Saving file at /SEI3R Object Pyro.ipynb
+[I 13:00:58.356 NotebookApp] Saving file at /SEI3R Object Pyro.ipynb
+[I 13:02:52.544 NotebookApp] Saving file at /SEI3R Object Pyro.ipynb
+[I 13:04:52.529 NotebookApp] Saving file at /SEI3R Object Pyro.ipynb
+[I 13:05:09.231 NotebookApp] Saving file at /SEI3R Object Pyro.ipynb
+[I 13:06:52.499 NotebookApp] Saving file at /SEI3R Object Pyro.ipynb
+[I 13:10:52.530 NotebookApp] Saving file at /SEI3R Object Pyro.ipynb
+[I 13:11:52.481 NotebookApp] Saving file at /SEI3R Object Pyro.ipynb
+[I 13:16:52.457 NotebookApp] Saving file at /SEI3R Object Pyro.ipynb
+[I 13:18:52.484 NotebookApp] Saving file at /SEI3R Object Pyro.ipynb
+[I 13:20:52.480 NotebookApp] Saving file at /SEI3R Object Pyro.ipynb
+[I 13:22:52.547 NotebookApp] Saving file at /SEI3R Object Pyro.ipynb
+[I 13:26:52.645 NotebookApp] Saving file at /SEI3R Object Pyro.ipynb
+[I 13:28:53.026 NotebookApp] Saving file at /SEI3R Object Pyro.ipynb
+[I 13:30:52.518 NotebookApp] Saving file at /SEI3R Object Pyro.ipynb
+[I 13:32:53.018 NotebookApp] Saving file at /SEI3R Object Pyro.ipynb
+[I 13:34:45.717 NotebookApp] Kernel interrupted: b2f832d2-8a9e-424f-a3fa-146b037563aa
+[I 13:34:52.715 NotebookApp] Saving file at /SEI3R Object Pyro.ipynb
+[I 13:38:06.257 NotebookApp] Kernel interrupted: b2f832d2-8a9e-424f-a3fa-146b037563aa
+[I 13:38:17.810 NotebookApp] Kernel interrupted: b2f832d2-8a9e-424f-a3fa-146b037563aa
+[I 13:38:28.480 NotebookApp] Kernel interrupted: b2f832d2-8a9e-424f-a3fa-146b037563aa
+[I 13:38:52.572 NotebookApp] Saving file at /SEI3R Object Pyro.ipynb
