@@ -53,3 +53,5 @@ Use the token string from the URL printed below and add it to the URL above
 [I 13:38:17.810 NotebookApp] Kernel interrupted: b2f832d2-8a9e-424f-a3fa-146b037563aa
 [I 13:38:28.480 NotebookApp] Kernel interrupted: b2f832d2-8a9e-424f-a3fa-146b037563aa
 [I 13:38:52.572 NotebookApp] Saving file at /SEI3R Object Pyro.ipynb
+[I 13:40:14.677 NotebookApp] Starting buffering for b2f832d2-8a9e-424f-a3fa-146b037563aa:5da5e6c3bb79437e81456f8627636ec5
+slurmstepd: error: *** JOB 13992611 ON c99-05 CANCELLED AT 2020-12-01T18:10:36 ***
