@@ -1,0 +1,46 @@
+
+MacOS or linux terminal command to create your ssh tunnel:
+ssh -N -L 8403:c25-02:8403 nsk367@ 
+For more info and how to connect from windows, 
+   see research.computing.yale.edu/jupyter-nb
+Here is the MobaXterm info:
+Forwarded port:same as remote port
+Remote server: c25-02
+Remote port: 8403
+SSH server: 
+SSH login: nsk367
+SSH port: 22
+Use a Browser on your local machine to go to:
+http://localhost:8403  (prefix w/ https:// if using password)
+Use the token string from the URL printed below and add it to the URL above
+
+[I 11:58:14.797 NotebookApp] Serving notebooks from local directory: /scratch/nsk367/covid-pyro/notebooks
+[I 11:58:14.798 NotebookApp] Jupyter Notebook 6.1.5 is running at:
+[I 11:58:14.798 NotebookApp] http://c25-02:8403/?token=779a6b7f52c247cc9e24b3f4a778df786e533f615fa198b0
+[I 11:58:14.798 NotebookApp]  or http://127.0.0.1:8403/?token=779a6b7f52c247cc9e24b3f4a778df786e533f615fa198b0
+[I 11:58:14.798 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 11:58:14.809 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/nsk367/.local/share/jupyter/runtime/nbserver-56108-open.html
+    Or copy and paste one of these URLs:
+        http://c25-02:8403/?token=779a6b7f52c247cc9e24b3f4a778df786e533f615fa198b0
+     or http://127.0.0.1:8403/?token=779a6b7f52c247cc9e24b3f4a778df786e533f615fa198b0
+[I 12:01:38.307 NotebookApp] 302 GET /?token=779a6b7f52c247cc9e24b3f4a778df786e533f615fa198b0 (172.16.0.13) 179.81ms
+[I 12:07:25.324 NotebookApp] Kernel started: f3e9b9f9-20d1-4999-804f-a1f4facd4a52, name: python3
+[I 12:09:05.998 NotebookApp] Starting buffering for f3e9b9f9-20d1-4999-804f-a1f4facd4a52:641929cfe5224ea2b4919da47fb9b922
+[I 12:09:07.678 NotebookApp] Kernel restarted: f3e9b9f9-20d1-4999-804f-a1f4facd4a52
+[I 12:09:07.904 NotebookApp] Restoring connection for f3e9b9f9-20d1-4999-804f-a1f4facd4a52:641929cfe5224ea2b4919da47fb9b922
+[I 12:09:07.904 NotebookApp] Replaying 3 buffered messages
+[I 12:09:24.305 NotebookApp] Saving file at /SEI3R Object Pyro.ipynb
+[I 12:10:31.644 NotebookApp] Starting buffering for f3e9b9f9-20d1-4999-804f-a1f4facd4a52:641929cfe5224ea2b4919da47fb9b922
+[I 12:10:34.962 NotebookApp] Kernel restarted: f3e9b9f9-20d1-4999-804f-a1f4facd4a52
+[I 12:10:35.162 NotebookApp] Restoring connection for f3e9b9f9-20d1-4999-804f-a1f4facd4a52:641929cfe5224ea2b4919da47fb9b922
+[I 12:10:35.162 NotebookApp] Replaying 3 buffered messages
+[I 12:11:24.620 NotebookApp] Saving file at /SEI3R Object Pyro.ipynb
+[I 12:13:24.311 NotebookApp] Saving file at /SEI3R Object Pyro.ipynb
+[I 12:13:27.149 NotebookApp] Kernel interrupted: f3e9b9f9-20d1-4999-804f-a1f4facd4a52
+[I 12:19:43.544 NotebookApp] Saving file at /SEI3R Object Pyro.ipynb
+[I 12:19:43.688 NotebookApp] Saving file at /SEI3R Object Pyro.ipynb
+[I 12:23:08.062 NotebookApp] Saving file at /SEI3R Object Pyro.ipynb
+[I 12:32:10.952 NotebookApp] Saving file at /SEI3R Object Pyro.ipynb
