@@ -1,0 +1,28 @@
+
+MacOS or linux terminal command to create your ssh tunnel:
+ssh -N -L 8199:c23-02:8199 nsk367@ 
+For more info and how to connect from windows, 
+   see research.computing.yale.edu/jupyter-nb
+Here is the MobaXterm info:
+Forwarded port:same as remote port
+Remote server: c23-02
+Remote port: 8199
+SSH server: 
+SSH login: nsk367
+SSH port: 22
+Use a Browser on your local machine to go to:
+http://localhost:8199  (prefix w/ https:// if using password)
+Use the token string from the URL printed below and add it to the URL above
+
+[I 12:54:02.420 NotebookApp] Serving notebooks from local directory: /scratch/nsk367/covid-pyro/notebooks
+[I 12:54:02.420 NotebookApp] Jupyter Notebook 6.1.5 is running at:
+[I 12:54:02.420 NotebookApp] http://c23-02:8199/?token=4bc4cfec4377a1235b4acb12667388ecfa9b4ed07e906e24
+[I 12:54:02.420 NotebookApp]  or http://127.0.0.1:8199/?token=4bc4cfec4377a1235b4acb12667388ecfa9b4ed07e906e24
+[I 12:54:02.420 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 12:54:02.435 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/nsk367/.local/share/jupyter/runtime/nbserver-68609-open.html
+    Or copy and paste one of these URLs:
+        http://c23-02:8199/?token=4bc4cfec4377a1235b4acb12667388ecfa9b4ed07e906e24
+     or http://127.0.0.1:8199/?token=4bc4cfec4377a1235b4acb12667388ecfa9b4ed07e906e24
