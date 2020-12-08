@@ -1,0 +1,66 @@
+
+MacOS or linux terminal command to create your ssh tunnel:
+ssh -N -L 9336:cm28:9336 nsk367@ 
+For more info and how to connect from windows, 
+   see research.computing.yale.edu/jupyter-nb
+Here is the MobaXterm info:
+Forwarded port:same as remote port
+Remote server: cm28
+Remote port: 9336
+SSH server: 
+SSH login: nsk367
+SSH port: 22
+Use a Browser on your local machine to go to:
+http://localhost:9336  (prefix w/ https:// if using password)
+Use the token string from the URL printed below and add it to the URL above
+
+[I 20:28:40.469 NotebookApp] Serving notebooks from local directory: /scratch/nsk367/covid-pyro/notebooks
+[I 20:28:40.470 NotebookApp] Jupyter Notebook 6.1.5 is running at:
+[I 20:28:40.470 NotebookApp] http://cm28:9336/?token=c84132d3eb8be1cd9364440fdf78c0d113666bef72b2afd0
+[I 20:28:40.470 NotebookApp]  or http://127.0.0.1:9336/?token=c84132d3eb8be1cd9364440fdf78c0d113666bef72b2afd0
+[I 20:28:40.470 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 20:28:40.475 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/nsk367/.local/share/jupyter/runtime/nbserver-1448029-open.html
+    Or copy and paste one of these URLs:
+        http://cm28:9336/?token=c84132d3eb8be1cd9364440fdf78c0d113666bef72b2afd0
+     or http://127.0.0.1:9336/?token=c84132d3eb8be1cd9364440fdf78c0d113666bef72b2afd0
+[I 20:28:56.819 NotebookApp] 302 GET /?token=c84132d3eb8be1cd9364440fdf78c0d113666bef72b2afd0 (10.32.32.6) 0.46ms
+[W 20:30:59.581 NotebookApp] Notebook [SM] SEIR Object Pyro.ipynb is not trusted
+[I 20:31:00.405 NotebookApp] Kernel started: 5e946040-d536-4dcb-b83e-55204a6dd822, name: python3
+[W 20:36:44.496 NotebookApp] Notebook [SM] SIR.ipynb is not trusted
+[I 20:36:45.287 NotebookApp] Kernel started: 65ad8215-0b88-406b-8791-072d8939dcd5, name: python3
+[W 20:36:50.939 NotebookApp] Notebook [SM] SIR-Noah Copy.ipynb is not trusted
+[I 20:36:52.165 NotebookApp] Kernel started: 64e5bdf9-889e-4dc5-887b-8b41a82bd4a9, name: python3
+[I 21:21:10.608 NotebookApp] Starting buffering for 5e946040-d536-4dcb-b83e-55204a6dd822:bb3b1603c62f416ea858f0b0e1359b9a
+[I 21:21:10.609 NotebookApp] Starting buffering for 65ad8215-0b88-406b-8791-072d8939dcd5:110d7344a3784c218b6bb07321cc04af
+[I 21:21:10.609 NotebookApp] Starting buffering for 64e5bdf9-889e-4dc5-887b-8b41a82bd4a9:0ef30b08a85d4788a52c76768b3604fc
+[I 21:49:48.749 NotebookApp] 302 GET /?token=c84132d3eb8be1cd9364440fdf78c0d113666bef72b2afd0 (10.32.32.4) 0.61ms
+[W 21:49:57.082 NotebookApp] Notebook [SM] SIR-Noah Copy.ipynb is not trusted
+[I 21:50:01.826 NotebookApp] Starting buffering for 64e5bdf9-889e-4dc5-887b-8b41a82bd4a9:2419e1f6466047188948e0a81ea404a4
+[I 21:50:02.084 NotebookApp] Kernel restarted: 64e5bdf9-889e-4dc5-887b-8b41a82bd4a9
+[I 21:50:02.184 NotebookApp] Restoring connection for 64e5bdf9-889e-4dc5-887b-8b41a82bd4a9:2419e1f6466047188948e0a81ea404a4
+[I 21:50:02.184 NotebookApp] Replaying 3 buffered messages
+[I 21:51:58.611 NotebookApp] Saving file at /[SM] SIR-Noah Copy.ipynb
+[W 21:52:35.601 NotebookApp] Notebook SIR Object Pyro.ipynb is not trusted
+[I 21:52:36.225 NotebookApp] Kernel started: d49ac7f2-8dcc-4599-8ecf-45063b09de49, name: python3
+[I 21:53:58.613 NotebookApp] Saving file at /[SM] SIR-Noah Copy.ipynb
+[I 21:54:36.351 NotebookApp] Saving file at /SIR Object Pyro.ipynb
+[W 21:54:36.351 NotebookApp] Notebook SIR Object Pyro.ipynb is not trusted
+[I 21:56:36.610 NotebookApp] Saving file at /SIR Object Pyro.ipynb
+[W 21:56:36.610 NotebookApp] Notebook SIR Object Pyro.ipynb is not trusted
+[I 21:57:58.433 NotebookApp] Saving file at /[SM] SIR-Noah Copy.ipynb
+[I 21:59:58.415 NotebookApp] Saving file at /[SM] SIR-Noah Copy.ipynb
+[I 22:01:58.422 NotebookApp] Saving file at /[SM] SIR-Noah Copy.ipynb
+[I 22:03:58.446 NotebookApp] Saving file at /[SM] SIR-Noah Copy.ipynb
+[I 22:05:58.710 NotebookApp] Saving file at /[SM] SIR-Noah Copy.ipynb
+[I 22:07:58.634 NotebookApp] Saving file at /[SM] SIR-Noah Copy.ipynb
+[I 22:09:58.659 NotebookApp] Saving file at /[SM] SIR-Noah Copy.ipynb
+[I 22:12:05.148 NotebookApp] Saving file at /[SM] SIR-Noah Copy.ipynb
+[I 22:17:58.485 NotebookApp] Saving file at /[SM] SIR-Noah Copy.ipynb
+[I 22:19:59.284 NotebookApp] Saving file at /[SM] SIR-Noah Copy.ipynb
+[I 22:21:58.486 NotebookApp] Saving file at /[SM] SIR-Noah Copy.ipynb
+[I 22:32:26.583 NotebookApp] Starting buffering for d49ac7f2-8dcc-4599-8ecf-45063b09de49:e7bf7584af554a158c748e3a0b728a02
+[I 22:32:27.024 NotebookApp] Starting buffering for 64e5bdf9-889e-4dc5-887b-8b41a82bd4a9:2419e1f6466047188948e0a81ea404a4
+slurmstepd: error: *** JOB 361627 ON cm28-ib0 CANCELLED AT 2020-12-07T23:28:30 DUE TO TIME LIMIT ***
