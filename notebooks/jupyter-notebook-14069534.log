@@ -78,3 +78,8 @@ Use the token string from the URL printed below and add it to the URL above
 [I 19:10:37.929 NotebookApp] Saving file at /SEI3R Object Pyro.ipynb
 [I 19:10:41.411 NotebookApp] Saving file at /SEI3R Object Pyro.ipynb
 [I 19:10:43.074 NotebookApp] Saving file at /SEI3R Object Pyro.ipynb
+[I 19:12:44.655 NotebookApp] Starting buffering for 6875dc4c-e23b-41b1-a925-dcbc7e4293e1:dc20ef49dff04ffaa58f00c2d31abffc
+[I 19:12:44.657 NotebookApp] Starting buffering for 119d616c-d7a2-46ca-89f4-b077a68580f3:dcdde4bf66e5400283db0fae580b5e62
+[I 19:12:44.657 NotebookApp] Starting buffering for 185ffb36-834c-4313-9be0-e22f21e30dba:e5c201e189e34ba285bf9a2012a21141
+[I 19:12:44.657 NotebookApp] Starting buffering for 12a80d2f-bcbe-4395-b9b7-2e0d9846e090:ea8964d74c0f4e8d89afcb7893024d08
+slurmstepd: error: *** JOB 14069534 ON gpu-92 CANCELLED AT 2020-12-06T19:46:20 DUE TO TIME LIMIT ***
