@@ -1,0 +1,65 @@
+
+MacOS or linux terminal command to create your ssh tunnel:
+ssh -N -L 8948:cm38:8948 nsk367@ 
+For more info and how to connect from windows, 
+   see research.computing.yale.edu/jupyter-nb
+Here is the MobaXterm info:
+Forwarded port:same as remote port
+Remote server: cm38
+Remote port: 8948
+SSH server: 
+SSH login: nsk367
+SSH port: 22
+Use a Browser on your local machine to go to:
+http://localhost:8948  (prefix w/ https:// if using password)
+Use the token string from the URL printed below and add it to the URL above
+
+[I 23:25:10.511 NotebookApp] Serving notebooks from local directory: /scratch/nsk367/covid-pyro/notebooks
+[I 23:25:10.512 NotebookApp] Jupyter Notebook 6.1.5 is running at:
+[I 23:25:10.512 NotebookApp] http://cm38:8948/?token=f50f756be37adc9f39447f148695931abc3b660a4fba76e3
+[I 23:25:10.512 NotebookApp]  or http://127.0.0.1:8948/?token=f50f756be37adc9f39447f148695931abc3b660a4fba76e3
+[I 23:25:10.512 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 23:25:10.517 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/nsk367/.local/share/jupyter/runtime/nbserver-2350734-open.html
+    Or copy and paste one of these URLs:
+        http://cm38:8948/?token=f50f756be37adc9f39447f148695931abc3b660a4fba76e3
+     or http://127.0.0.1:8948/?token=f50f756be37adc9f39447f148695931abc3b660a4fba76e3
+[I 23:25:23.317 NotebookApp] 302 GET /?token=f50f756be37adc9f39447f148695931abc3b660a4fba76e3 (10.32.32.5) 0.49ms
+[I 23:25:26.893 NotebookApp] Creating new notebook in 
+[I 23:25:28.542 NotebookApp] Kernel started: 8cc46d99-4b84-4c2b-9845-4bba6dc9d882, name: python3
+[I 23:27:28.559 NotebookApp] Saving file at /[NK] SEIR Tutorial.ipynb
+[I 23:29:29.226 NotebookApp] Saving file at /[NK] SEIR Tutorial.ipynb
+[I 23:30:05.159 NotebookApp] Kernel started: a050ea5e-0f79-43a0-a329-d801d55078a2, name: python3
+[W 23:30:35.328 NotebookApp] Notebook [SM] SIR-Noah Copy.ipynb is not trusted
+[I 23:30:36.465 NotebookApp] Kernel started: 7138ff59-ff5d-4059-9427-51322273e9a8, name: python3
+[I 23:31:28.563 NotebookApp] Saving file at /[NK] SEIR Tutorial.ipynb
+[I 23:33:29.667 NotebookApp] Saving file at /[NK] SEIR Tutorial.ipynb
+[I 23:35:29.068 NotebookApp] Saving file at /[NK] SEIR Tutorial.ipynb
+[I 23:37:06.221 NotebookApp] Saving file at /[NK] SEIR Tutorial.ipynb
+[I 23:37:28.571 NotebookApp] Saving file at /[NK] SEIR Tutorial.ipynb
+[I 23:38:48.471 NotebookApp] Saving file at /[NK] SEIR Tutorial.ipynb
+[I 23:38:52.850 NotebookApp] Saving file at /[NK] SEIR Tutorial.ipynb
+[I 23:38:57.922 NotebookApp] Saving file at /[NK] SEIR Tutorial.ipynb
+[I 23:39:28.582 NotebookApp] Saving file at /[NK] SEIR Tutorial.ipynb
+[I 23:39:48.052 NotebookApp] Saving file at /[NK] SEIR Tutorial.ipynb
+[I 23:41:28.581 NotebookApp] Saving file at /[NK] SEIR Tutorial.ipynb
+[I 23:41:36.799 NotebookApp] Saving file at /[NK] SEIR Tutorial.ipynb
+[I 23:42:32.499 NotebookApp] Kernel interrupted: 8cc46d99-4b84-4c2b-9845-4bba6dc9d882
+[I 23:43:28.606 NotebookApp] Saving file at /[NK] SEIR Tutorial.ipynb
+[I 23:45:28.600 NotebookApp] Saving file at /[NK] SEIR Tutorial.ipynb
+[I 23:47:28.706 NotebookApp] Saving file at /[NK] SEIR Tutorial.ipynb
+[I 23:48:24.356 NotebookApp] Saving file at /[NK] SEIR Tutorial.ipynb
+[I 23:49:28.645 NotebookApp] Saving file at /[NK] SEIR Tutorial.ipynb
+[I 23:51:28.615 NotebookApp] Saving file at /[NK] SEIR Tutorial.ipynb
+[I 23:52:31.101 NotebookApp] Starting buffering for a050ea5e-0f79-43a0-a329-d801d55078a2:4925b1843f2a4cca9674f17e99bbb40a
+[W 23:52:36.768 NotebookApp] Notebook [SM] SEIR Object Pyro.ipynb is not trusted
+[I 23:52:37.504 NotebookApp] Kernel started: 6e993dd1-630a-46f8-9ec0-a1101b69c14a, name: python3
+[I 23:53:29.278 NotebookApp] Saving file at /[NK] SEIR Tutorial.ipynb
+[I 23:55:28.619 NotebookApp] Saving file at /[NK] SEIR Tutorial.ipynb
+[I 23:57:28.629 NotebookApp] Saving file at /[NK] SEIR Tutorial.ipynb
+[I 23:59:28.803 NotebookApp] Saving file at /[NK] SEIR Tutorial.ipynb
+[I 00:01:28.632 NotebookApp] Saving file at /[NK] SEIR Tutorial.ipynb
+[I 00:03:29.323 NotebookApp] Saving file at /[NK] SEIR Tutorial.ipynb
+[I 00:05:42.886 NotebookApp] Saving file at /[NK] SEIR Tutorial.ipynb
