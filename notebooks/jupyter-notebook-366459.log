@@ -123,3 +123,4 @@ Use the token string from the URL printed below and add it to the URL above
 [I 10:45:31.511 NotebookApp] Starting buffering for 023a2254-c94d-4acf-ad56-367c6e163a34:79a63bd4a0354cf08a700027aa0a7cc6
 [I 10:45:32.452 NotebookApp] Starting buffering for 23fe74cd-fe53-46b1-aa71-d013a181a328:7fc4b037d1a6415d9487e815955d0a47
 [I 10:45:33.050 NotebookApp] Starting buffering for 3d4e4c9e-41ea-41e4-81ea-4e90d3e6088e:f0f47f5aea5a4912a4660786409e746e
+slurmstepd: error: *** JOB 366459 ON cm15-ib0 CANCELLED AT 2020-12-08T10:47:46 ***
