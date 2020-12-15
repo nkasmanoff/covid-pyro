@@ -1,0 +1,41 @@
+
+MacOS or linux terminal command to create your ssh tunnel:
+ssh -N -L 8657:gpu-23:8657 nsk367@ 
+For more info and how to connect from windows, 
+   see research.computing.yale.edu/jupyter-nb
+Here is the MobaXterm info:
+Forwarded port:same as remote port
+Remote server: gpu-23
+Remote port: 8657
+SSH server: 
+SSH login: nsk367
+SSH port: 22
+Use a Browser on your local machine to go to:
+http://localhost:8657  (prefix w/ https:// if using password)
+Use the token string from the URL printed below and add it to the URL above
+
+[I 17:34:46.879 NotebookApp] Serving notebooks from local directory: /scratch/nsk367/covid-pyro/notebooks
+[I 17:34:46.880 NotebookApp] Jupyter Notebook 6.1.5 is running at:
+[I 17:34:46.880 NotebookApp] http://gpu-23:8657/?token=799ed886b5d117fab3289489e5f2a93f7d12cb8ea8fae115
+[I 17:34:46.880 NotebookApp]  or http://127.0.0.1:8657/?token=799ed886b5d117fab3289489e5f2a93f7d12cb8ea8fae115
+[I 17:34:46.880 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 17:34:46.910 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/nsk367/.local/share/jupyter/runtime/nbserver-15131-open.html
+    Or copy and paste one of these URLs:
+        http://gpu-23:8657/?token=799ed886b5d117fab3289489e5f2a93f7d12cb8ea8fae115
+     or http://127.0.0.1:8657/?token=799ed886b5d117fab3289489e5f2a93f7d12cb8ea8fae115
+[I 17:48:08.301 NotebookApp] 302 GET /?token=799ed886b5d117fab3289489e5f2a93f7d12cb8ea8fae115 (172.16.0.12) 1.17ms
+[I 17:48:46.854 NotebookApp] Kernel started: 8ae89c37-ba15-44a2-9d55-428704721dcc, name: python3
+[I 17:52:47.580 NotebookApp] Saving file at /[NK] SEIR Tutorial.ipynb
+[I 18:11:26.822 NotebookApp] Starting buffering for 8ae89c37-ba15-44a2-9d55-428704721dcc:bd461de467f24374801bc1224d70e639
+[I 18:11:27.240 NotebookApp] Kernel restarted: 8ae89c37-ba15-44a2-9d55-428704721dcc
+[I 18:11:27.431 NotebookApp] Restoring connection for 8ae89c37-ba15-44a2-9d55-428704721dcc:bd461de467f24374801bc1224d70e639
+[I 18:11:27.431 NotebookApp] Replaying 3 buffered messages
+[I 18:12:47.866 NotebookApp] Saving file at /[NK] SEIR Tutorial.ipynb
+[I 18:14:47.531 NotebookApp] Saving file at /[NK] SEIR Tutorial.ipynb
+[I 18:16:46.737 NotebookApp] Saving file at /[NK] SEIR Tutorial.ipynb
+[I 18:23:58.855 NotebookApp] Kernel interrupted: 8ae89c37-ba15-44a2-9d55-428704721dcc
+[I 18:24:46.768 NotebookApp] Saving file at /[NK] SEIR Tutorial.ipynb
+[I 18:35:56.421 NotebookApp] Saving file at /[NK] SEIR Tutorial.ipynb
