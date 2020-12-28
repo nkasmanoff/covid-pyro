@@ -1,0 +1,66 @@
+
+MacOS or linux terminal command to create your ssh tunnel:
+ssh -N -L 8170:cm27:8170 nsk367@ 
+For more info and how to connect from windows, 
+   see research.computing.yale.edu/jupyter-nb
+Here is the MobaXterm info:
+Forwarded port:same as remote port
+Remote server: cm27
+Remote port: 8170
+SSH server: 
+SSH login: nsk367
+SSH port: 22
+Use a Browser on your local machine to go to:
+http://localhost:8170  (prefix w/ https:// if using password)
+Use the token string from the URL printed below and add it to the URL above
+
+[I 11:22:07.728 NotebookApp] Serving notebooks from local directory: /scratch/nsk367/covid-pyro/notebooks
+[I 11:22:07.728 NotebookApp] Jupyter Notebook 6.1.5 is running at:
+[I 11:22:07.728 NotebookApp] http://cm27:8170/?token=f25f664823947c82189f09dc8764a7121d56b884a24820ec
+[I 11:22:07.728 NotebookApp]  or http://127.0.0.1:8170/?token=f25f664823947c82189f09dc8764a7121d56b884a24820ec
+[I 11:22:07.728 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 11:22:07.746 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/nsk367/.local/share/jupyter/runtime/nbserver-150734-open.html
+    Or copy and paste one of these URLs:
+        http://cm27:8170/?token=f25f664823947c82189f09dc8764a7121d56b884a24820ec
+     or http://127.0.0.1:8170/?token=f25f664823947c82189f09dc8764a7121d56b884a24820ec
+[I 11:24:49.553 NotebookApp] 302 GET /?token=f25f664823947c82189f09dc8764a7121d56b884a24820ec (10.32.32.5) 0.43ms
+[W 11:24:56.536 NotebookApp] Notebook SEI3R.ipynb is not trusted
+[I 11:24:58.198 NotebookApp] Kernel started: 9b86cbe7-cee6-4525-9cab-2a34dfb261be, name: python3
+[I 11:26:58.496 NotebookApp] Saving file at /SEI3R.ipynb
+[W 11:26:58.496 NotebookApp] Notebook SEI3R.ipynb is not trusted
+[I 11:30:58.366 NotebookApp] Saving file at /SEI3R.ipynb
+[W 11:30:58.366 NotebookApp] Notebook SEI3R.ipynb is not trusted
+[I 11:31:09.717 NotebookApp] Saving file at /SEI3R.ipynb
+[W 11:31:09.717 NotebookApp] Notebook SEI3R.ipynb is not trusted
+[I 11:32:58.362 NotebookApp] Saving file at /SEI3R.ipynb
+[W 11:32:58.363 NotebookApp] Notebook SEI3R.ipynb is not trusted
+[I 11:34:00.316 NotebookApp] Saving file at /SEI3R.ipynb
+[W 11:34:00.316 NotebookApp] Notebook SEI3R.ipynb is not trusted
+[I 11:34:58.483 NotebookApp] Saving file at /SEI3R.ipynb
+[W 11:34:58.483 NotebookApp] Notebook SEI3R.ipynb is not trusted
+[I 11:36:06.084 NotebookApp] Saving file at /SEI3R.ipynb
+[W 11:36:06.084 NotebookApp] Notebook SEI3R.ipynb is not trusted
+[I 11:36:23.945 NotebookApp] Saving file at /SEI3R.ipynb
+[W 11:36:23.946 NotebookApp] Notebook SEI3R.ipynb is not trusted
+[I 11:36:58.765 NotebookApp] Saving file at /SEI3R.ipynb
+[W 11:36:58.766 NotebookApp] Notebook SEI3R.ipynb is not trusted
+[I 11:37:05.965 NotebookApp] Starting buffering for 9b86cbe7-cee6-4525-9cab-2a34dfb261be:2dc3df52597045838fd5db5544a9fa41
+[I 11:37:06.397 NotebookApp] Kernel restarted: 9b86cbe7-cee6-4525-9cab-2a34dfb261be
+[I 11:37:06.434 NotebookApp] Restoring connection for 9b86cbe7-cee6-4525-9cab-2a34dfb261be:2dc3df52597045838fd5db5544a9fa41
+[I 11:37:06.434 NotebookApp] Replaying 3 buffered messages
+[I 11:37:09.349 NotebookApp] Starting buffering for 9b86cbe7-cee6-4525-9cab-2a34dfb261be:2dc3df52597045838fd5db5544a9fa41
+[I 11:37:09.592 NotebookApp] Kernel restarted: 9b86cbe7-cee6-4525-9cab-2a34dfb261be
+[I 11:37:09.696 NotebookApp] Restoring connection for 9b86cbe7-cee6-4525-9cab-2a34dfb261be:2dc3df52597045838fd5db5544a9fa41
+[I 11:37:09.697 NotebookApp] Replaying 3 buffered messages
+[I 11:38:58.372 NotebookApp] Saving file at /SEI3R.ipynb
+[I 11:40:58.313 NotebookApp] Saving file at /SEI3R.ipynb
+[I 11:42:38.930 NotebookApp] Saving file at /SEI3R.ipynb
+[W 11:44:16.827 NotebookApp] Notebook [NK] SEI3R Object.ipynb is not trusted
+[I 11:44:17.155 NotebookApp] Kernel started: 4333a4ae-9aca-4755-82dc-bbb7259e696a, name: python3
+[I 11:44:25.294 NotebookApp] Kernel started: 1a9af050-ba6d-4597-80f0-059c1903f224, name: python3
+[I 11:44:58.301 NotebookApp] Saving file at /SEI3R.ipynb
+[I 11:46:16.330 NotebookApp] Saving file at /SEI3R.ipynb
+[I 11:47:28.693 NotebookApp] Saving file at /SEI3R.ipynb
