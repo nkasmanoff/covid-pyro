@@ -45,3 +45,61 @@ Use the token string from the URL printed below and add it to the URL above
 [I 21:19:03.774 NotebookApp] Saving file at /[NK] SEI3R.ipynb
 [W 21:19:03.774 NotebookApp] Notebook [NK] SEI3R.ipynb is not trusted
 [I 21:20:09.958 NotebookApp] Saving file at /Conditional SIR Model.ipynb
+[I 21:21:03.834 NotebookApp] Saving file at /[NK] SEI3R.ipynb
+[I 21:28:28.263 NotebookApp] Saving file at /Conditional SIR Model.ipynb
+[I 21:29:36.593 NotebookApp] Starting buffering for fe9d422e-adc6-43ce-9e3d-ebb8e00307cd:d5f042a3ffec4b28a3dd241f3fe046cc
+[I 21:29:40.240 NotebookApp] Kernel restarted: fe9d422e-adc6-43ce-9e3d-ebb8e00307cd
+[I 21:29:40.285 NotebookApp] Restoring connection for fe9d422e-adc6-43ce-9e3d-ebb8e00307cd:d5f042a3ffec4b28a3dd241f3fe046cc
+[I 21:29:40.285 NotebookApp] Replaying 3 buffered messages
+[I 21:30:28.265 NotebookApp] Saving file at /Conditional SIR Model.ipynb
+[I 21:32:28.225 NotebookApp] Saving file at /Conditional SIR Model.ipynb
+[I 21:34:28.268 NotebookApp] Saving file at /Conditional SIR Model.ipynb
+[I 21:36:28.770 NotebookApp] Saving file at /SIR Model with Real World Observations.ipynb
+[I 21:37:03.102 NotebookApp] Saving file at /[NK] SEI3R.ipynb
+[I 21:38:28.778 NotebookApp] Saving file at /SIR Model with Real World Observations.ipynb
+[I 21:39:03.862 NotebookApp] Saving file at /[NK] SEI3R.ipynb
+[I 21:41:03.841 NotebookApp] Saving file at /[NK] SEI3R.ipynb
+[I 21:42:28.802 NotebookApp] Saving file at /SIR Model with Real World Observations.ipynb
+[I 21:45:03.123 NotebookApp] Saving file at /[NK] SEI3R.ipynb
+[I 21:47:03.108 NotebookApp] Saving file at /[NK] SEI3R.ipynb
+[I 21:48:03.603 NotebookApp] Kernel interrupted: 1659c01b-2ae5-4c53-955e-0de626f5bb22
+[I 21:49:03.117 NotebookApp] Saving file at /[NK] SEI3R.ipynb
+[I 21:49:16.804 NotebookApp] Kernel interrupted: 1659c01b-2ae5-4c53-955e-0de626f5bb22
+[I 21:49:38.821 NotebookApp] Kernel interrupted: 1659c01b-2ae5-4c53-955e-0de626f5bb22
+[I 21:51:03.112 NotebookApp] Saving file at /[NK] SEI3R.ipynb
+[I 21:52:53.705 NotebookApp] Saving file at /[NK] SEI3R.ipynb
+[I 21:54:04.585 NotebookApp] Saving file at /[NK] SEI3R.ipynb
+[I 21:54:07.226 NotebookApp] Saving file at /[NK] SEI3R.ipynb
+[I 21:55:03.146 NotebookApp] Saving file at /[NK] SEI3R.ipynb
+[I 21:57:03.136 NotebookApp] Saving file at /[NK] SEI3R.ipynb
+[I 21:59:03.135 NotebookApp] Saving file at /[NK] SEI3R.ipynb
+[I 21:59:20.190 NotebookApp] Saving file at /[NK] SEI3R.ipynb
+[I 21:59:23.976 NotebookApp] Saving file at /[NK] SEI3R.ipynb
+[I 22:01:03.214 NotebookApp] Saving file at /[NK] SEI3R.ipynb
+[I 22:03:03.162 NotebookApp] Saving file at /[NK] SEI3R.ipynb
+[I 22:05:03.151 NotebookApp] Saving file at /[NK] SEI3R.ipynb
+[I 22:07:03.138 NotebookApp] Saving file at /[NK] SEI3R.ipynb
+[I 22:09:03.145 NotebookApp] Saving file at /[NK] SEI3R.ipynb
+[I 22:11:03.164 NotebookApp] Saving file at /[NK] SEI3R.ipynb
+[I 22:13:03.158 NotebookApp] Saving file at /[NK] SEI3R.ipynb
+[I 22:15:03.160 NotebookApp] Saving file at /[NK] SEI3R.ipynb
+[I 22:17:03.865 NotebookApp] Saving file at /[NK] SEI3R.ipynb
+[I 22:17:40.805 NotebookApp] Saving file at /[NK] SEI3R.ipynb
+[I 22:19:03.199 NotebookApp] Saving file at /[NK] SEI3R.ipynb
+[I 22:19:42.313 NotebookApp] Starting buffering for 1659c01b-2ae5-4c53-955e-0de626f5bb22:33b93464ea1d43c580cca25316a2e6e0
+[I 22:19:43.661 NotebookApp] Kernel restarted: 1659c01b-2ae5-4c53-955e-0de626f5bb22
+[I 22:19:43.710 NotebookApp] Restoring connection for 1659c01b-2ae5-4c53-955e-0de626f5bb22:33b93464ea1d43c580cca25316a2e6e0
+[I 22:19:43.710 NotebookApp] Replaying 3 buffered messages
+[I 22:20:15.900 NotebookApp] Kernel interrupted: 1659c01b-2ae5-4c53-955e-0de626f5bb22
+[I 22:21:03.194 NotebookApp] Saving file at /[NK] SEI3R.ipynb
+[I 22:23:03.888 NotebookApp] Saving file at /[NK] SEI3R.ipynb
+[I 22:25:03.925 NotebookApp] Saving file at /[NK] SEI3R.ipynb
+[I 22:27:03.942 NotebookApp] Saving file at /[NK] SEI3R.ipynb
+[I 22:29:04.938 NotebookApp] Saving file at /[NK] SEI3R.ipynb
+[I 22:31:04.954 NotebookApp] Saving file at /[NK] SEI3R.ipynb
+[I 22:33:03.906 NotebookApp] Saving file at /[NK] SEI3R.ipynb
+[I 22:35:03.909 NotebookApp] Saving file at /[NK] SEI3R.ipynb
+[I 22:37:03.910 NotebookApp] Saving file at /[NK] SEI3R.ipynb
+[I 22:39:03.202 NotebookApp] Saving file at /[NK] SEI3R.ipynb
+[I 22:44:39.988 NotebookApp] Saving file at /SIR Model with Real World Observations.ipynb
+[I 22:44:41.856 NotebookApp] Saving file at /[NK] SEI3R.ipynb
