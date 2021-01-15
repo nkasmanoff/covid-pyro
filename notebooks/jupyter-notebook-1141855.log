@@ -1,0 +1,47 @@
+
+MacOS or linux terminal command to create your ssh tunnel:
+ssh -N -L 9429:cl01:9429 nsk367@ 
+For more info and how to connect from windows, 
+   see research.computing.yale.edu/jupyter-nb
+Here is the MobaXterm info:
+Forwarded port:same as remote port
+Remote server: cl01
+Remote port: 9429
+SSH server: 
+SSH login: nsk367
+SSH port: 22
+Use a Browser on your local machine to go to:
+http://localhost:9429  (prefix w/ https:// if using password)
+Use the token string from the URL printed below and add it to the URL above
+
+[I 21:08:35.500 NotebookApp] Serving notebooks from local directory: /scratch/nsk367/covid-pyro/notebooks
+[I 21:08:35.502 NotebookApp] Jupyter Notebook 6.1.5 is running at:
+[I 21:08:35.502 NotebookApp] http://cl01:9429/?token=ef8c48f38b9ba180c40643a9ea0ae95cbf99c7bf27cdb35f
+[I 21:08:35.502 NotebookApp]  or http://127.0.0.1:9429/?token=ef8c48f38b9ba180c40643a9ea0ae95cbf99c7bf27cdb35f
+[I 21:08:35.502 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 21:08:35.522 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/nsk367/.local/share/jupyter/runtime/nbserver-2669393-open.html
+    Or copy and paste one of these URLs:
+        http://cl01:9429/?token=ef8c48f38b9ba180c40643a9ea0ae95cbf99c7bf27cdb35f
+     or http://127.0.0.1:9429/?token=ef8c48f38b9ba180c40643a9ea0ae95cbf99c7bf27cdb35f
+[I 21:08:53.832 NotebookApp] 302 GET /?token=ef8c48f38b9ba180c40643a9ea0ae95cbf99c7bf27cdb35f (10.32.32.6) 21.64ms
+[W 21:09:02.421 NotebookApp] Notebook [NK] SEI3R.ipynb is not trusted
+[I 21:09:03.197 NotebookApp] Kernel started: 1659c01b-2ae5-4c53-955e-0de626f5bb22, name: python3
+[I 21:11:03.099 NotebookApp] Saving file at /[NK] SEI3R.ipynb
+[W 21:11:03.100 NotebookApp] Notebook [NK] SEI3R.ipynb is not trusted
+[I 21:13:03.097 NotebookApp] Saving file at /[NK] SEI3R.ipynb
+[W 21:13:03.097 NotebookApp] Notebook [NK] SEI3R.ipynb is not trusted
+[I 21:14:28.380 NotebookApp] Kernel started: fe9d422e-adc6-43ce-9e3d-ebb8e00307cd, name: python3
+[I 21:15:03.780 NotebookApp] Saving file at /[NK] SEI3R.ipynb
+[W 21:15:03.781 NotebookApp] Notebook [NK] SEI3R.ipynb is not trusted
+[I 21:15:56.697 NotebookApp] Saving file at /[NK] SEI3R.ipynb
+[W 21:15:56.697 NotebookApp] Notebook [NK] SEI3R.ipynb is not trusted
+[I 21:16:28.808 NotebookApp] Saving file at /Conditional SIR Model.ipynb
+[I 21:17:03.837 NotebookApp] Saving file at /[NK] SEI3R.ipynb
+[W 21:17:03.837 NotebookApp] Notebook [NK] SEI3R.ipynb is not trusted
+[I 21:18:28.244 NotebookApp] Saving file at /Conditional SIR Model.ipynb
+[I 21:19:03.774 NotebookApp] Saving file at /[NK] SEI3R.ipynb
+[W 21:19:03.774 NotebookApp] Notebook [NK] SEI3R.ipynb is not trusted
+[I 21:20:09.958 NotebookApp] Saving file at /Conditional SIR Model.ipynb
